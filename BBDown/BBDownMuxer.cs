@@ -126,8 +126,8 @@ namespace BBDown
                 }
             }
 
-            if (!string.IsNullOrEmpty(pic))
-                metaArg.Append(" -disposition:v:1 attached_pic ");
+//             if (!string.IsNullOrEmpty(pic))
+//                 metaArg.Append(" -disposition:v:1 attached_pic ");
             var inputCount = Regex.Matches(inputArg.ToString(), "-i \"").Count;
 
             if (points != null && points.Count > 0)
