@@ -1,5 +1,6 @@
 name: .NET
-
+env:
+  DOTNET_SDK_VERSION: '6.0.100'
 on:
   push:
     branches: [ master ]
